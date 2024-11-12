@@ -7,15 +7,16 @@
 //{
 //    // Start is called before the first frame update
 //    public float delayBeforeNextScene = 5f; // Time in seconds before transitioning
-//    void Transition() {
+//    void Transition()
+//    {
 //        if (SceneManager.GetActiveScene().name == "Scene 6")
 //        {
 //            Invoke("LoadNextScene", delayBeforeNextScene);
 //        }
 //    }
-//        void LoadNextScene()
-//        {
-//            SceneManager.LoadScene("Scene 7");
-//        }
-    
+//    void LoadNextScene()
+//    {
+//        SceneManager.LoadScene("Scene 7");
+//    }
+
 //}

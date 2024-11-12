@@ -17508,8 +17508,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26362d74e459f4b468f7c29be9d0c2b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  decisionUI: {fileID: 919346548}
-  decisionAudioSource: {fileID: 1226491827}
 --- !u!114 &1410398332
 MonoBehaviour:
   m_ObjectHideFlags: 0
