@@ -18,7 +18,7 @@ public class TitleScreenManager : MonoBehaviour
     // Method to start the game
     public void PlayGame()
     {
-        SceneManager.LoadScene("Scene 1"); 
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Scene 1"); 
     }
 
     // Method to show options
