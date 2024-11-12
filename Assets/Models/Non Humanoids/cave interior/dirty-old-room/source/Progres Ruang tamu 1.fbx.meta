@@ -1,0 +1,454 @@
+fileFormatVersion: 2
+guid: 4a0e5a2f922f9174eab7856fe97ff1f3
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bangku_Goyang_kursi_goyang_Kursi_Atas
+    second: {fileID: 2100000, guid: 80845390c77669544aedd7d72e762851, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bangku_Goyang_kursi_goyang_Kursi_Bawah
+    second: {fileID: 2100000, guid: 20d445cb3b37c674095f9e04a14ad814, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gramophone_Besi
+    second: {fileID: 2100000, guid: 58d171f071d700247a45501f114cfe9a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gramophone_Fabric
+    second: {fileID: 2100000, guid: f7e6d8539e2cb994686682b3d97c8db3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gramophone_GOLD
+    second: {fileID: 2100000, guid: 0201ee9c049c8c441b71e3b5b37f0c34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gramophone_Karbon
+    second: {fileID: 2100000, guid: 6745806c9cc492342804b6e70fdb71ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gramophone_Kayu
+    second: {fileID: 2100000, guid: 34bc99cad5652894d8adbc46a98a9ce2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Jendela_Ruang_Tamu_Body_Jendela
+    second: {fileID: 2100000, guid: d8e74866e9feda2458060742b7b41a2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Jendela_Ruang_Tamu_Pintu_Jendela
+    second: {fileID: 2100000, guid: d67d76496f8d6cc40824235f1633eb52, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kayu
+    second: {fileID: 2100000, guid: 32c72209f1f9e6f4486b142131b74843, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lantai
+    second: {fileID: 2100000, guid: 8e6444d4f4da5c244a76c9c9a68c1a2b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lemari_Gagang_Pintu
+    second: {fileID: 2100000, guid: bc63a3a6b14bcfb4796b046b74dff305, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lemari_Lemari
+    second: {fileID: 2100000, guid: b4929fda6a919464e92930d017ee71cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lemari_Pintu
+    second: {fileID: 2100000, guid: 57f7fa721ff1de541b0240b6b59d7a55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meja_Ruang_Tamu_standardSurface2
+    second: {fileID: 2100000, guid: cdfbf8e230e36e04ebb40887ece5b7ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tembok
+    second: {fileID: 2100000, guid: f64fc9d163b882a41a2bd19f2c72fe64, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert2
+    second: {fileID: 2100000, guid: baf04cd30bacd3941a8ec310532bc91b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: standardSurface2
+    second: {fileID: 2100000, guid: 24509fd2a1abeb54387af3e588ffd273, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Bangku Goyang_kursi_goyang_Kursi_Atas_BaseColor
+    second: {fileID: 2800000, guid: 4114ff711bb0b904ba21ce46cdd42048, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Bangku Goyang_kursi_goyang_Kursi_Atas_Height
+    second: {fileID: 2800000, guid: 49cae36ff1868754c91e5830eb444f68, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Bangku Goyang_kursi_goyang_Kursi_Atas_Roughness
+    second: {fileID: 2800000, guid: 6b0df38d0bd0bbd42834ae460d494cce, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Bangku Goyang_kursi_goyang_Kursi_Bawah_BaseColor
+    second: {fileID: 2800000, guid: e5d83e1f7b85d1346ad33c3fdefb06d7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Bangku Goyang_kursi_goyang_Kursi_Bawah_Height
+    second: {fileID: 2800000, guid: 05dc3a808c1c6fd4a87b2746714d802e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Bangku Goyang_kursi_goyang_Kursi_Bawah_Roughness
+    second: {fileID: 2800000, guid: 05391a2a4ea5bf84280567960995b2e0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Gramophone_Besi_BaseColor
+    second: {fileID: 2800000, guid: 1d01e87bb85a47042975a36bc084d22e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Gramophone_Besi_Height
+    second: {fileID: 2800000, guid: e3c38290451494e47864653600388e1d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Gramophone_Besi_Metallic
+    second: {fileID: 2800000, guid: e5b6c623fdd018f47a6f4b6166ba0e24, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Gramophone_Fabric_BaseColor
+    second: {fileID: 2800000, guid: d8d63d57ca0c7a843b64fdd37361ca7b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Gramophone_Fabric_Metallic
+    second: {fileID: 2800000, guid: c9c1edb1f2e2eb34ab12857ae32168c9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Gramophone_Fabric_Roughness
+    second: {fileID: 2800000, guid: d8f5fe303d3457f48abb37f0d2a8c57b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Gramophone_GOLD_BaseColor
+    second: {fileID: 2800000, guid: e2551dbfed666024db23fdf165d79bf8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Gramophone_GOLD_Height
+    second: {fileID: 2800000, guid: 0f77c5ecf0d92f840987a40390e9cfe2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Gramophone_GOLD_Metallic
+    second: {fileID: 2800000, guid: 1ee64b79c56cbcf4a8211d1c7d617f8e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Gramophone_GOLD_Roughness
+    second: {fileID: 2800000, guid: 249ba3863c348c84c8a22438b46b02dd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Gramophone_Karbon_BaseColor
+    second: {fileID: 2800000, guid: 54808c4c40978104ea4808f1886ec3fb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Gramophone_Karbon_Height
+    second: {fileID: 2800000, guid: f87a223d7875b6b4dab2283c2cca043d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Gramophone_Karbon_Metallic
+    second: {fileID: 2800000, guid: 581755fa7556a2f4d93434516039d624, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Gramophone_Karbon_Roughness
+    second: {fileID: 2800000, guid: c99aaa070e7f74e4690a6ccec8c1f8e5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Gramophone_Kayu_BaseColor
+    second: {fileID: 2800000, guid: f059919bb44f8d249b588886a3e68d93, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Gramophone_Kayu_Height
+    second: {fileID: 2800000, guid: 5d566feec9b9a3a4cad6b7f6db4697ee, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Gramophone_Kayu_Roughness
+    second: {fileID: 2800000, guid: 7f38320f1b6969c4ea174018608f0363, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Jendela Ruang Tamu_Body_Jendela_BaseColor
+    second: {fileID: 2800000, guid: 9d566f9d89dbd1d4dafe5ae3da06db07, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Jendela Ruang Tamu_Body_Jendela_Height
+    second: {fileID: 2800000, guid: fa8166212b67cc6498cd477cd47c83be, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Jendela Ruang Tamu_Body_Jendela_Roughness
+    second: {fileID: 2800000, guid: 1bad58fa12d0f744194943071c759a62, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Jendela Ruang Tamu_Pintu_Jendela_BaseColor
+    second: {fileID: 2800000, guid: fb22dcd4cc5e9d0429c2916c496ad3d3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Jendela Ruang Tamu_Pintu_Jendela_Height
+    second: {fileID: 2800000, guid: 4d9027a238543dd41b70a628be681e7c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Jendela Ruang Tamu_Pintu_Jendela_Roughness
+    second: {fileID: 2800000, guid: 15541014c98048444b3df68c349f5cba, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Lemari_Gagang_Pintu_BaseColor
+    second: {fileID: 2800000, guid: 4d43b1a403fcec246983be5dc12660ab, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Lemari_Gagang_Pintu_Height
+    second: {fileID: 2800000, guid: 5ac90d12ef52b32499a482a229dc1b50, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Lemari_Gagang_Pintu_Roughness
+    second: {fileID: 2800000, guid: 4008e760c5a98124f996f61aff6b3fd0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Lemari_Lemari_BaseColor
+    second: {fileID: 2800000, guid: b34c6c6864c1577469c462c320666eb6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Lemari_Lemari_Height
+    second: {fileID: 2800000, guid: 63895eb8323b83949ab96c4ed4f3b7cf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Lemari_Lemari_Roughness
+    second: {fileID: 2800000, guid: 5211177ec3d153e43ac5f48bcdf13451, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Lemari_Pintu_BaseColor
+    second: {fileID: 2800000, guid: a2b0e540bdd5fdc4f8aa42434db6180d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Lemari_Pintu_Height
+    second: {fileID: 2800000, guid: e9414c6f4f7ee6a4db265c297428626e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Lemari_Pintu_Roughness
+    second: {fileID: 2800000, guid: a9a137ec64b95404881f42dcd64409c4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Meja Mesin TIK_lambert2_BaseColor
+    second: {fileID: 2800000, guid: 311ddd45bca4dee45ad82e82f57a17a2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Meja Mesin TIK_lambert2_Height
+    second: {fileID: 2800000, guid: a7174db6ea2438947b5f55f081698a22, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Meja Mesin TIK_lambert2_Roughness
+    second: {fileID: 2800000, guid: b670edd077aee3344bee6174931237af, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Meja Ruang Tamu_lambert2_BaseColor
+    second: {fileID: 2800000, guid: 16f4991fad06fe146b96c064f02319e1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Meja Ruang Tamu_lambert2_Height
+    second: {fileID: 2800000, guid: f193cb84bae7efb49b6a9cd032a1afbe, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Meja Ruang Tamu_lambert2_Metallic
+    second: {fileID: 2800000, guid: effd28a43b5765543a9693f18abb6c0b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Meja Ruang Tamu_lambert2_Roughness
+    second: {fileID: 2800000, guid: 1e5e5271cf26a1c448e5f8302a02e32e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tembok_Kayu_BaseColor
+    second: {fileID: 2800000, guid: f7cb5d46eeb897847b7cea002d9d722c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tembok_Kayu_Roughness
+    second: {fileID: 2800000, guid: f9367b2a8bb75bf458c6dbe0cb1bbc31, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tembok_Tembok_BaseColor
+    second: {fileID: 2800000, guid: 2105c051176cd6b4eaf684f765b77238, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tembok_Tembok_Roughness
+    second: {fileID: 2800000, guid: 83527e4db8b922442b19953e353fe775, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: floor_tiles_02_diff_2k
+    second: {fileID: 2800000, guid: f16ebf1605bb139448139a95174c383e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: floor_tiles_02_rough_2k
+    second: {fileID: 2800000, guid: 6016ecb0efebd4d4f862b9bb8318fb84, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 20
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 20
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
