@@ -6208,6 +6208,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: db173b459c635094e833075e7e666643, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1410398333}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: db173b459c635094e833075e7e666643, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1410398335}
   m_SourcePrefab: {fileID: 100100000, guid: db173b459c635094e833075e7e666643, type: 3}
 --- !u!4 &460602786 stripped
 Transform:
@@ -16747,7 +16750,7 @@ PrefabInstance:
       propertyPath: m_text
       value: 'Game Over !
 
-        You died, try " " next time.'
+        You died, try going around the cliff next time.'
       objectReference: {fileID: 0}
     - target: {fileID: 8565112282465843823, guid: 7373b210494c7bc4bb582dfde0d6ea3f, type: 3}
       propertyPath: m_Name
@@ -17213,6 +17216,8 @@ PlayableDirector:
     value: {fileID: 1410398334}
   - key: {fileID: -4245781803853577942, guid: 1f879db988f64364ca4650d7f2c8959a, type: 2}
     value: {fileID: 1410398334}
+  - key: {fileID: 7544803346927676346, guid: 1f879db988f64364ca4650d7f2c8959a, type: 2}
+    value: {fileID: 1903348281}
   m_ExposedReferences:
     m_References: []
 --- !u!95 &1410398334 stripped
@@ -17220,6 +17225,21 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: db173b459c635094e833075e7e666643, type: 3}
   m_PrefabInstance: {fileID: 460355743}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1410398335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1410398329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26362d74e459f4b468f7c29be9d0c2b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  decisionUI: {fileID: 0}
+  decisionAudioSource: {fileID: 0}
+  delayBeforeNextScene: 5
 --- !u!4 &1416178742 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 429508, guid: 9c74caa742791864f9c678287121e6c9, type: 3}
@@ -17834,7 +17854,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1447572967}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1410398335}
+        m_TargetAssemblyTypeName: DecisionManager, Assembly-CSharp
+        m_MethodName: GoBackToMainMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1447572967
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22286,6 +22318,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ccd4cf83fa952445bf3312280e6928d, type: 3}
+--- !u!1 &1903348281 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8565112282465843823, guid: 7373b210494c7bc4bb582dfde0d6ea3f, type: 3}
+  m_PrefabInstance: {fileID: 1362318674}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1917110079 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 429508, guid: 9c74caa742791864f9c678287121e6c9, type: 3}
