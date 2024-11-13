@@ -59,7 +59,7 @@ public class DecisionManager : MonoBehaviour
     public void Transition()
     {
         
-        if (UnityEngine.SceneManagement.SceneManager.GetActiveScene().name == "Scene 6")
+        if (UnityEngine.SceneManagement.SceneManager.GetActiveScene().name == "Scene 6"  || UnityEngine.SceneManagement.SceneManager.GetActiveScene().name == "khalid")
         {
             Invoke("LoadNextScene", delayBeforeNextScene);
         }
