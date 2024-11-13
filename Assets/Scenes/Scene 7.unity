@@ -6132,13 +6132,7 @@ PrefabInstance:
       objectReference: {fileID: 9100000, guid: 7cf76b7117f99d2428c39e24e8cc31cb, type: 2}
     - target: {fileID: 5866666021909216657, guid: db173b459c635094e833075e7e666643, type: 3}
       propertyPath: m_WarningMessage
-      value: "\nBinding warning: Some generic clip(s) animate transforms that are
-        already bound by a Humanoid avatar. These transforms can only be changed
-        by Humanoid clips.\n\tTransform 'mixamorig:LeftFoot'\n\tTransform 'mixamorig:LeftHandThumb2'\n\tTransform
-        'mixamorig:LeftHandIndex1'\n\tTransform 'mixamorig:LeftHandPinky2'\n\tTransform
-        'mixamorig:RightHandRing2'\n\tTransform 'mixamorig:Spine1'\n\tTransform 'mixamorig:LeftToeBase'\n\tTransform
-        'mixamorig:LeftHandThumb3'\n\tTransform 'mixamorig:RightArm'\n\tTransform
-        'mixamorig:LeftLeg'\n\tand more ..."
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6000407479487422213, guid: db173b459c635094e833075e7e666643, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6430,9 +6424,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: db173b459c635094e833075e7e666643, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1410398333}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: db173b459c635094e833075e7e666643, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1410398332}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: db173b459c635094e833075e7e666643, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1410398331}
@@ -17577,36 +17568,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   decisionUI: {fileID: 0}
   decisionAudioSource: {fileID: 0}
---- !u!114 &1410398332
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1410398329}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Events:
-    m_Signals:
-    - {fileID: 11400000, guid: 60f3beee56f429941bef3630ed9c71e3, type: 2}
-    m_Events:
-    - m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1410398331}
-          m_TargetAssemblyTypeName: DecisionManager, Assembly-CSharp
-          m_MethodName: ShowDecisionUI
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
+  delayBeforeNextScene: 5
 --- !u!320 &1410398333
 PlayableDirector:
   m_ObjectHideFlags: 0

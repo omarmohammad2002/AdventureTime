@@ -17658,6 +17658,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   decisionUI: {fileID: 919346548}
   decisionAudioSource: {fileID: 1226491827}
+  delayBeforeNextScene: 5
 --- !u!114 &1410398332
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17697,7 +17698,7 @@ PlayableDirector:
   m_GameObject: {fileID: 1410398329}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 0}
+  m_PlayableAsset: {fileID: 11400000, guid: a2c4fe23662db0e4392dc8020428c713, type: 2}
   m_InitialState: 1
   m_WrapMode: 2
   m_DirectorUpdateMode: 1

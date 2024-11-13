@@ -6,6 +6,7 @@ public class DecisionManager : MonoBehaviour
 
     public GameObject decisionUI;
     public AudioSource decisionAudioSource;
+    public float delayBeforeNextScene = 5f;
     public void GoToCliff()
     {
         if (UnityEngine.SceneManagement.SceneManager.GetActiveScene().name == "Scene 1")
@@ -41,7 +42,10 @@ public class DecisionManager : MonoBehaviour
 
     public void ShowDecisionUI()
    {
-        decisionUI.SetActive(true); // Activates the decision buttons UI
+        if (decisionUI != null)
+        {
+            decisionUI.SetActive(true);
+        }
         if (decisionAudioSource != null)
         {
             decisionAudioSource.Play();
@@ -51,5 +55,17 @@ public class DecisionManager : MonoBehaviour
     public void GoBackToMainMenu()
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene("TitleScene");
+    }
+    public void Transition()
+    {
+        
+        if (UnityEngine.SceneManagement.SceneManager.GetActiveScene().name == "Scene 6")
+        {
+            Invoke("LoadNextScene", delayBeforeNextScene);
+        }
+    }
+    public void LoadNextScene()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Scene 7");
     }
 }
