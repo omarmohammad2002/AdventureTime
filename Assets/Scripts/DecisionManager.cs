@@ -6,6 +6,7 @@ public class DecisionManager : MonoBehaviour
 
     public GameObject decisionUI;
     public AudioSource decisionAudioSource;
+    public AudioSource cave;
     public float delayBeforeNextScene = 5f;
     public void GoToCliff()
     {
@@ -32,7 +33,8 @@ public class DecisionManager : MonoBehaviour
         }
         if (UnityEngine.SceneManagement.SceneManager.GetActiveScene().name == "Scene 5")
         {
-            UnityEngine.SceneManagement.SceneManager.LoadScene("Scene 6");
+            cave.Play();
+            Invoke("LoadCaveScene",delayBeforeNextScene);
         }
         if (UnityEngine.SceneManagement.SceneManager.GetActiveScene().name == "Scene 2")
         {
@@ -59,13 +61,18 @@ public class DecisionManager : MonoBehaviour
     public void Transition()
     {
         
-        if (UnityEngine.SceneManagement.SceneManager.GetActiveScene().name == "Scene 6"  || UnityEngine.SceneManagement.SceneManager.GetActiveScene().name == "khalid")
+        if (UnityEngine.SceneManagement.SceneManager.GetActiveScene().name == "Scene 6")
         {
+            cave.Play();
             Invoke("LoadNextScene", delayBeforeNextScene);
         }
     }
     public void LoadNextScene()
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene("Scene 7");
+    }
+    public void LoadCaveScene()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Scene 6");
     }
 }
