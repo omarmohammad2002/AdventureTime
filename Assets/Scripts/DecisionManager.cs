@@ -34,6 +34,7 @@ public class DecisionManager : MonoBehaviour
         if (UnityEngine.SceneManagement.SceneManager.GetActiveScene().name == "Scene 5")
         {
             cave.Play();
+            decisionUI.SetActive(false);
             Invoke("LoadCaveScene",delayBeforeNextScene);
         }
         if (UnityEngine.SceneManagement.SceneManager.GetActiveScene().name == "Scene 2")
@@ -73,6 +74,7 @@ public class DecisionManager : MonoBehaviour
     }
     public void LoadCaveScene()
     {
+        
         UnityEngine.SceneManagement.SceneManager.LoadScene("Scene 6");
     }
 }
