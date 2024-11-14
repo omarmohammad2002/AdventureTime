@@ -17737,7 +17737,7 @@ MonoBehaviour:
   decisionUI: {fileID: 919346548}
   decisionAudioSource: {fileID: 1226491827}
   cave: {fileID: 1772738187}
-  delayBeforeNextScene: 2
+  delayBeforeNextScene: 3
 --- !u!114 &1410398332
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21550,8 +21550,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: f0493b3916e8bbb4baa9eff61bc940ba, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
