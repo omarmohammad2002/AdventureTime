@@ -16756,6 +16756,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 961285189131567234, guid: 7373b210494c7bc4bb582dfde0d6ea3f, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 961285189131567234, guid: 7373b210494c7bc4bb582dfde0d6ea3f, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 961285189131567234, guid: 7373b210494c7bc4bb582dfde0d6ea3f, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2122561789138490767, guid: 7373b210494c7bc4bb582dfde0d6ea3f, type: 3}
       propertyPath: m_text
       value: 'Game Over !
@@ -16768,7 +16780,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8565112282465843823, guid: 7373b210494c7bc4bb582dfde0d6ea3f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17251,6 +17263,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   decisionUI: {fileID: 0}
   decisionAudioSource: {fileID: 0}
+  cave: {fileID: 0}
   delayBeforeNextScene: 5
 --- !u!82 &1410398336
 AudioSource:
