@@ -16884,8 +16884,8 @@ PlayableDirector:
     value: {fileID: 510865132}
   - key: {fileID: -280726471321846859, guid: 1f879db988f64364ca4650d7f2c8959a, type: 2}
     value: {fileID: 2035455774}
-  - key: {fileID: -7189143566439221521, guid: 1f879db988f64364ca4650d7f2c8959a, type: 2}
-    value: {fileID: 1526062011}
+  - key: {fileID: -420940422389215795, guid: 1f879db988f64364ca4650d7f2c8959a, type: 2}
+    value: {fileID: 1526062012}
   m_ExposedReferences:
     m_References: []
 --- !u!95 &1410398334 stripped
@@ -18156,7 +18156,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: cf5c18c24b1497c42abb6d694a4041b9, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
